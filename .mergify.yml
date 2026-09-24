@@ -1,15 +1,1 @@
-merge_protections:
-  - name: 'ZZQ7K3MARKER"><img src=x onerror=1>'
-    description: 'ZZQ7K3MARKER</div><b>BOLD</b> <a href="javascript:alert(1)">link</a>'
-    if:
-      - base = main
-    success_conditions:
-      - label = ZZQ7K3MARKER
-
-pull_request_rules:
-  - name: 'ZZQ7K3MARKER rule <img src=x onerror=2>'
-    conditions:
-      - base = main
-    actions:
-      comment:
-        message: 'ZZQ7K3MARKER [click](javascript:alert(3)) <img src=x onerror=4>'
+extends: zzq7k3-src-private
